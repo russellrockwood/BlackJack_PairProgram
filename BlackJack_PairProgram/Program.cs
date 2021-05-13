@@ -264,10 +264,5 @@ namespace BlackJack_PairProgram
 }
 
 
-// line 171 -added Keep playing = false;  was causing an infinite loop when house wins
-
-// moved - Console.WriteLine("Dealer Shows: "); and DealerHit(); from top of KeepPlaying() method to bottom of InitialDeal() method.
-
-// line 121 Added a call to the KeepPlaying() method in switch case 1. Calling a method within itself creates a "call stack" and has some unintended side-effects at the end of running the program but close enough.
 
 
